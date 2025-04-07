@@ -6,7 +6,7 @@ Launch the terminal in the OpenShift Console sandbox. It will use the default pr
 
 ## Blue app from master
 
-    oc new-app https://github.com/{username}/blue-green-openshift#master --name=blue --strategy=source
+    oc new-app https://github.com/mehdiben7/blue-green-openshift#master --name=blue --strategy=source
 
 ## Expose bluegreen service (using blue)
 
@@ -14,7 +14,7 @@ Launch the terminal in the OpenShift Console sandbox. It will use the default pr
 
 ## Green app deploy
 
-    oc new-app https://github.com/{username}/blue-green-openshift#green --name=green
+    oc new-app https://github.com/mehdiben7/blue-green-openshift#green --name=green
 
 ## Switch services to green
 
